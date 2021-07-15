@@ -1,0 +1,26 @@
+<script type="text/javascript">
+  RED.nodes.registerType('clova-ocr-func',{
+      category: 'CLOVA OCR',
+      color: '#32CDC8',
+      defaults: {
+          name: {value:"CLOVA OCR FUNCTION"}
+      },
+      inputs:1,
+      outputs:1,
+      icon: "icon.png",
+      label: function() {
+          return this.name||"clova-ocr-func";
+      }
+  });
+</script>
+
+<script type="text/html" data-template-name="clova-ocr-func">
+  <div class="form-row">
+      <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+      <input type="text" id="node-input-name" placeholder="Name">
+  </div>
+</script>
+
+<script type="text/html" data-help-name="clova-ocr-func">
+  <p>A simple node that converts the message payloads into all clova-ocr-func of LINE characters</p>
+</script>

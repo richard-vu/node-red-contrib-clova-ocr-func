@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-clova-ocr-func",
+  "version": "0.1.1",
+  "description": "node-red-contrib-clova-ocr-func",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richard-vu/node-red-contrib-clova-ocr-func.git"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "node-red": {
+    "nodes": {
+      "lower-case": "clova-ocr-func.js"
+    }
+  },
+  "author": "Richard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richard-vu/node-red-contrib-clova-ocr-func/issues"
+  },
+  "homepage": "https://github.com/richard-vu/node-red-contrib-clova-ocr-func#readme"
+}
